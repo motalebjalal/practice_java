@@ -27,6 +27,7 @@ public class ManipulateString {
         );
 
         //reverse String
+        
         StringBuilder input = new StringBuilder();
         input.append(str);
         input.reverse();
