@@ -6,6 +6,7 @@ import java.util.Set;
 
 public class Learn_HashSet {
     public static void main(String[] args) {
+
         Set<String> foods = new HashSet<>();
         foods.add("Milk");
         foods.add("Honey");
@@ -13,6 +14,9 @@ public class Learn_HashSet {
         foods.add("Banana");
         foods.add("Pizza");
 
+        //The order of the hash set is incorrect.
+
+        System.out.println("The order of the hash set is incorrect.");
         for(String allFoods : foods){
             System.out.println(allFoods);
         }
@@ -28,6 +32,6 @@ public class Learn_HashSet {
         }else {
             System.out.println(findFood+" is not present in the set");
         }
-        
+
     }
 }
