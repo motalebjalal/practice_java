@@ -11,10 +11,11 @@ public class Learn_HashSet {
         foods.add("Milk");
         foods.add("Honey");
         foods.add("Egg");
+        foods.add("Egg");
         foods.add("Banana");
         foods.add("Pizza");
 
-        //The order of the hash set is incorrect.
+        //The order of the hash set is incorrect and cannot contain duplicate elements
 
         System.out.println("The order of the hash set is incorrect.");
         for(String allFoods : foods){
