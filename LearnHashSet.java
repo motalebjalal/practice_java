@@ -21,6 +21,7 @@ public class LearnHashSet {
         for(String allFoods : foods){
             System.out.println(allFoods);
         }
+        
         System.out.println("\n\n");
 
         Scanner input = new Scanner(System.in);
