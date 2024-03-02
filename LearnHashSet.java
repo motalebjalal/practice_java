@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-public class Learn_HashSet {
+public class LearnHashSet {
     public static void main(String[] args) {
 
         Set<String> foods = new HashSet<>();
