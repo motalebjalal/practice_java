@@ -25,9 +25,9 @@ public class MoveFile {
                 Path targetSourcePath = targetDir.resolve(file.getName());
                 Files.move(sourcePath,targetSourcePath,StandardCopyOption.REPLACE_EXISTING);
             }
-            System.out.println("Successfully Moved");
+            System.out.println(" Successfully Moved ");
         }else {
-            System.out.println("No files found in the source directory.");
+            System.out.println(" No files found in the source directory.");
         }
     }
 }
