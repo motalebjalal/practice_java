@@ -14,7 +14,7 @@ public class ReadAndWriteString {
         }
 
         String text = Files.readString(path);
-        System.out.println(text);
+        //System.out.println(text);
 
         Path writePath = Path.of("/home/linux/Passion/java/basic_java/src/myfiles/write.txt");
         Files.writeString(writePath, text);
